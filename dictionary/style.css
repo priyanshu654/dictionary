@@ -1,0 +1,85 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    gap: 30px;
+    
+
+}
+.heading{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+}
+form input{
+    width: 750px;
+    height: 30px;
+    background-color: rgb(227, 233, 239);
+    border: none;
+    /* margin-left: -px; */
+    border-radius: 4px;
+}
+ 
+form button{
+    height: 30px;
+    width: 80px;
+    border: none;
+    background-color: aquamarine;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+.container{
+    background-color: aliceblue;
+    padding: 40px;
+    float: left;
+    margin-top: -30px;
+    gap: 10px;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.result{
+    background-color: aliceblue;
+    padding: 40px;
+    float: left;
+    margin: 10px;
+    gap: 10px;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+.result p{
+    margin: 15px;
+}
+.result span[class="syno"]{
+    margin: 15px;
+}
+.result div audio{
+    background-color: aliceblue;
+    margin-top: 25px;
+    height: 30px;
+    width: 200px;
+
+}
+.msg{
+    color: aquamarine;
+    font-size: 30px;
+}
+.wrd{
+    color: aquamarine;
+}
